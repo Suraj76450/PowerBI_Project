@@ -53,6 +53,9 @@ Following the **SMART** planning framework, the dashboard visualizes and tracks 
 
 ```text
 PowerBI_Project/
+├── database/         # MySQL & PostgreSQL DDL schemas & load scripts
+├── dataset/          # Raw dataset files (Excel sheets, Data Dictionary & reports)
+│   └── csv/          # Cleaned CSV files for each database table (Orders, Sales, etc.)
 ├── 19_June.pbix      # Main Power BI Report file containing the visual dashboard
 └── README.md         # Project documentation (this file)
 ```
